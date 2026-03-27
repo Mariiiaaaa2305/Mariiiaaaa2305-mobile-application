@@ -12,8 +12,12 @@ dependencies:
   cupertino_icons: ^1.0.2
   mqtt_client: ^10.1.0        
   connectivity_plus: ^6.0.3
-  shared_preferences: ^2.2.2
-  url_launcher: ^6.3.2  
+  shared_preferences: ^2.5.4
+  url_launcher: ^6.3.2
+  http: ^0.13.6  
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  equatable: ^2.0.5
 
 dev_dependencies:
   flutter_test:
