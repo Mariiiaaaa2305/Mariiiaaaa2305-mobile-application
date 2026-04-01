@@ -1,0 +1,29 @@
+name: parking_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  mqtt_client: ^10.1.0        
+  connectivity_plus: ^6.0.3
+  shared_preferences: ^2.5.4
+  url_launcher: ^6.3.2
+  http: ^0.13.6  
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  equatable: ^2.0.5
+  smart_flash_plugin:
+    path: ./smart_flash_plugin
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
